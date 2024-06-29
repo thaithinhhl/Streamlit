@@ -13,8 +13,6 @@ def load_vocab(file_path):
 # Load vocabulary
 vocabs = load_vocab(file_path=r'E:\source\source\data\vocab.txt')
 
-# Calculate Levenshtein distance
-
 
 def levenshtein_distance(token1, token2):
     len1 = len(token1)
@@ -82,4 +80,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
