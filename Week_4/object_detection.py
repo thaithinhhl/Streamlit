@@ -17,6 +17,8 @@ def process_image(image):
     detections = net.forward()
     return detections
 
+# annatote
+
 
 def annotate_image(image, detections, confidence_threshold=0.5):
     (h, w) = image.shape[:2]
